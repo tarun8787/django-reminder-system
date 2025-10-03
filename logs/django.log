@@ -1,0 +1,934 @@
+[2025-08-06 12:35:37,795] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 12:35:39,043] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/settings.py changed, reloading.
+[2025-08-06 12:35:39,449] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 14:03:01,291] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12052
+[2025-08-06 14:03:01,327] WARNING django.request (246): Unauthorized: /api/job-application/
+[2025-08-06 14:03:01,327] WARNING django.request (246): Unauthorized: /api/reminder/
+[2025-08-06 14:03:01,327] WARNING django.server (212): "GET /api/job-application/ HTTP/1.1" 401 40
+[2025-08-06 14:03:01,328] WARNING django.server (212): "GET /api/reminder/ HTTP/1.1" 401 40
+[2025-08-06 14:03:01,338] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 14:03:01,377] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 14:03:01,386] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 14:03:01,387] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 14:03:01,392] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1138
+[2025-08-06 14:03:01,424] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-06 14:03:01,424] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 14:03:01,427] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-06 14:42:42,108] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/settings.py changed, reloading.
+[2025-08-06 14:44:00,745] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 14:49:53,195] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/settings.py changed, reloading.
+[2025-08-06 14:49:53,622] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 14:52:31,390] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/settings.py changed, reloading.
+[2025-08-06 14:52:31,803] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 14:53:12,748] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/settings.py changed, reloading.
+[2025-08-06 14:53:13,139] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:21:04,819] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/settings.py changed, reloading.
+[2025-08-06 15:21:16,946] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:22:09,091] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/settings.py changed, reloading.
+[2025-08-06 15:22:24,347] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:23:19,081] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12052
+[2025-08-06 15:23:19,120] WARNING django.request (246): Unauthorized: /api/job-application/
+[2025-08-06 15:23:19,120] WARNING django.request (246): Unauthorized: /api/reminder/
+[2025-08-06 15:23:19,121] WARNING django.server (212): "GET /api/job-application/ HTTP/1.1" 401 40
+[2025-08-06 15:23:19,121] WARNING django.server (212): "GET /api/reminder/ HTTP/1.1" 401 40
+[2025-08-06 15:23:19,127] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 15:23:19,167] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 15:23:19,173] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:23:19,174] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:23:19,177] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1138
+[2025-08-06 15:23:19,216] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-06 15:23:19,216] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:23:19,218] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-06 15:23:21,169] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12327
+[2025-08-06 15:23:21,197] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-06 15:23:21,197] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:23:21,198] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:23:21,198] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:23:21,200] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-06 15:23:21,201] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1138
+[2025-08-06 15:23:41,845] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:23:41,851] INFO jobtracker.applications.viewsets (141): Reminder 1 updated
+[2025-08-06 15:23:55,989] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-08-06 15:23:55,989] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-08-06 15:23:57,165] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12327
+[2025-08-06 15:23:57,194] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-08-06 15:23:57,194] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-08-06 15:23:57,519] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-06 15:23:57,519] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:23:57,519] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:23:57,520] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:23:57,524] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-06 15:23:57,524] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1138
+[2025-08-06 15:24:49,367] INFO django.server (212): "GET /admin/applications/reminder/1/change/ HTTP/1.1" 200 14034
+[2025-08-06 15:24:49,395] INFO django.server (212): "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2025-08-06 15:24:49,397] INFO django.server (212): "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2025-08-06 15:24:49,399] INFO django.server (212): "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2025-08-06 15:24:49,401] INFO django.server (212): "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2025-08-06 15:24:49,401] INFO django.server (212): "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2025-08-06 15:24:49,402] INFO django.server (212): "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,403] INFO django.server (212): "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,405] INFO django.server (212): "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,405] INFO django.server (212): "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,409] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:24:49,411] INFO django.server (212): "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2025-08-06 15:24:49,437] INFO django.server (212): "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,443] INFO django.server (212): "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,445] INFO django.server (212): "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,447] INFO django.server (212): "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,448] INFO django.server (212): "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,454] INFO django.server (212): "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,481] INFO django.server (212): "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,501] INFO django.server (212): "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,527] INFO django.server (212): "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,535] INFO django.server (212): "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2025-08-06 15:24:49,540] INFO django.server (212): "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2025-08-06 15:24:49,540] INFO django.server (212): "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2025-08-06 15:24:49,590] INFO django.server (212): "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2025-08-06 15:24:49,590] INFO django.server (212): "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2025-08-06 15:25:07,854] INFO django.server (212): "POST /admin/applications/reminder/1/change/ HTTP/1.1" 302 0
+[2025-08-06 15:25:07,872] INFO django.server (212): "GET /admin/applications/reminder/1/change/ HTTP/1.1" 200 14326
+[2025-08-06 15:25:07,936] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:25:08,003] INFO django.server (212): "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2025-08-06 15:25:15,301] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:25:18,753] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:25:34,355] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:25:34,358] INFO jobtracker.applications.viewsets (141): Reminder 1 updated
+[2025-08-06 15:25:36,414] INFO django.server (212): "PUT /api/reminder/1/ HTTP/1.1" 200 297
+[2025-08-06 15:25:36,420] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:25:36,420] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:25:36,422] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:25:57,272] INFO django.server (212): "GET /admin/applications/reminder/1/change/ HTTP/1.1" 200 14026
+[2025-08-06 15:25:57,287] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:26:28,831] INFO django.server (212): "GET /admin/applications/reminder/1/change/ HTTP/1.1" 200 14026
+[2025-08-06 15:26:28,844] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:27:08,332] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:27:08,978] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:27:12,256] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:27:12,602] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:27:13,878] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:27:14,429] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:27:15,735] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:27:16,097] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:27:19,396] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:27:19,832] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:27:52,504] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:27:52,893] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:27:57,187] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:27:57,570] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:28:06,967] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:28:07,496] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:28:08,784] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:28:09,230] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:28:16,581] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:28:17,020] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:28:23,353] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:28:23,777] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:29:35,084] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/viewsets.py changed, reloading.
+[2025-08-06 15:29:35,541] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:29:36,806] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/viewsets.py changed, reloading.
+[2025-08-06 15:29:37,196] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:29:47,598] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/viewsets.py changed, reloading.
+[2025-08-06 15:29:47,967] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:29:55,357] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/viewsets.py changed, reloading.
+[2025-08-06 15:29:55,844] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:29:59,150] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/viewsets.py changed, reloading.
+[2025-08-06 15:29:59,603] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:30:09,307] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12052
+[2025-08-06 15:30:09,382] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-08-06 15:30:09,382] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-08-06 15:30:09,517] WARNING django.request (246): Unauthorized: /api/job-application/
+[2025-08-06 15:30:09,519] WARNING django.request (246): Unauthorized: /api/reminder/
+[2025-08-06 15:30:09,519] WARNING django.server (212): "GET /api/job-application/ HTTP/1.1" 401 40
+[2025-08-06 15:30:09,520] WARNING django.server (212): "GET /api/reminder/ HTTP/1.1" 401 40
+[2025-08-06 15:30:09,529] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 15:30:09,530] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 15:30:09,578] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-06 15:30:09,579] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:30:09,581] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-06 15:30:09,586] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:30:09,586] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:30:09,592] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:30:18,795] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:30:18,814] INFO jobtracker.applications.viewsets (156): Reminder 4 deleted by user saxenatarun1811@gmail.com
+[2025-08-06 15:30:18,814] INFO django.server (212): "DELETE /api/reminder/4/ HTTP/1.1" 204 0
+[2025-08-06 15:30:18,821] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:30:18,821] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:30:18,823] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 839
+[2025-08-06 15:30:54,224] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:31:00,979] INFO jobtracker.applications.viewsets (67): JobApplication 3 updated
+[2025-08-06 15:31:00,982] INFO django.server (212): "PUT /api/job-application/3/ HTTP/1.1" 200 338
+[2025-08-06 15:31:00,991] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:31:00,991] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:31:00,993] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-06 15:31:00,993] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:31:00,996] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-06 15:31:00,996] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1105
+[2025-08-06 15:31:14,962] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:31:14,966] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:31:16,287] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 265
+[2025-08-06 15:31:16,294] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:31:16,294] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:31:16,297] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:31:22,752] INFO django.server (212): "GET /admin/applications/reminder/4/change/ HTTP/1.1" 302 0
+[2025-08-06 15:31:22,778] INFO django.server (212): "GET /admin/ HTTP/1.1" 200 11889
+[2025-08-06 15:31:22,834] INFO django.server (212): "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2025-08-06 15:31:22,881] INFO django.server (212): "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2025-08-06 15:31:22,882] INFO django.server (212): "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+[2025-08-06 15:31:26,242] INFO django.server (212): "GET /admin/applications/reminder/ HTTP/1.1" 200 12366
+[2025-08-06 15:31:26,256] INFO django.server (212): "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2025-08-06 15:31:26,259] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:31:26,260] INFO django.server (212): "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2025-08-06 15:31:26,335] INFO django.server (212): "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2025-08-06 15:31:28,711] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:31:28,726] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:32:15,872] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:32:15,888] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:32:17,331] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:32:17,344] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:34:07,713] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:34:08,286] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:34:12,585] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:34:12,934] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:34:15,194] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:34:15,616] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:34:16,923] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:34:17,336] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:34:23,692] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:34:24,082] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:34:34,560] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:34:34,562] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:34:36,306] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:34:36,314] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:34:36,314] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:34:36,316] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:34:41,249] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:34:41,262] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:36:17,549] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:36:18,110] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:36:24,802] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:36:43,065] WARNING django.request (246): Unauthorized: /api/reminder/5/
+[2025-08-06 15:36:43,066] WARNING django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 401 40
+[2025-08-06 15:36:43,075] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 15:36:43,126] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:36:43,128] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:36:44,959] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:36:45,012] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:36:45,013] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:36:45,017] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:36:47,746] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:36:47,759] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:37:19,550] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:37:20,072] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:38:57,858] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:38:58,328] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:38:59,611] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:39:00,040] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:39:07,380] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:39:07,749] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:39:09,993] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:39:10,455] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:39:11,728] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:39:12,234] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:39:14,556] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:39:15,025] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:39:19,338] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:39:19,747] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:39:32,442] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:39:32,444] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:39:37,260] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:39:37,270] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:39:37,271] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:39:37,273] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:39:40,423] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:39:40,438] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:41:17,408] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:41:17,953] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:41:21,240] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:41:21,655] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:41:22,926] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:41:23,365] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:41:24,658] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:41:25,118] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:41:29,424] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:41:29,809] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:42:01,818] WARNING django.request (246): Unauthorized: /api/reminder/5/
+[2025-08-06 15:42:01,819] WARNING django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 401 40
+[2025-08-06 15:42:01,825] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 15:42:01,877] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:42:01,882] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:42:03,213] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:42:03,267] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:42:03,268] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:42:03,273] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:42:07,289] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:42:07,305] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:42:09,208] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:42:09,221] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:42:09,395] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:42:09,407] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:42:53,500] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:42:53,505] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:42:55,728] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:42:55,734] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:42:55,735] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:42:55,739] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:43:02,466] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:43:02,479] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:45:04,277] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/settings.py changed, reloading.
+[2025-08-06 15:45:04,816] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:45:30,438] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:45:30,823] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:45:39,172] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:45:39,520] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:46:04,414] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:46:12,039] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12327
+[2025-08-06 15:46:12,066] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-08-06 15:46:12,067] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-08-06 15:46:12,431] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:46:12,432] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-06 15:46:12,432] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:46:12,432] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:46:12,437] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-06 15:46:12,437] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:46:19,029] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:46:19,031] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:46:20,500] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:46:20,505] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:46:20,505] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:46:20,508] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:46:24,001] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:46:24,015] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:50:00,567] WARNING django.request (246): Unauthorized: /api/reminder/5/
+[2025-08-06 15:50:00,568] WARNING django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 401 40
+[2025-08-06 15:50:00,577] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-06 15:50:00,625] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:50:00,627] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:50:04,709] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:50:04,762] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:50:04,762] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:50:04,764] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:50:26,382] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:50:26,386] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:50:28,772] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:50:28,778] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:50:28,779] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:50:28,783] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:50:31,194] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:50:31,208] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:51:20,415] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:51:20,962] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:51:31,340] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py changed, reloading.
+[2025-08-06 15:51:31,770] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-06 15:51:59,548] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:51:59,551] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:52:01,140] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:52:01,154] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:52:01,155] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:52:01,161] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:52:07,943] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:52:07,948] INFO jobtracker.applications.viewsets (141): Reminder 5 updated
+[2025-08-06 15:52:09,395] INFO django.server (212): "PUT /api/reminder/5/ HTTP/1.1" 200 299
+[2025-08-06 15:52:09,401] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-06 15:52:09,401] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-06 15:52:09,403] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1139
+[2025-08-06 15:52:14,669] INFO django.server (212): "GET /admin/applications/reminder/5/change/ HTTP/1.1" 200 14030
+[2025-08-06 15:52:14,683] INFO django.server (212): "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2025-08-06 15:53:00,002] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 5
+[2025-08-07 11:17:17,972] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-08-07 11:17:22,697] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12052
+[2025-08-07 11:17:22,755] WARNING django.request (246): Unauthorized: /api/job-application/
+[2025-08-07 11:17:22,755] WARNING django.request (246): Unauthorized: /api/reminder/
+[2025-08-07 11:17:22,757] WARNING django.server (212): "GET /api/job-application/ HTTP/1.1" 401 40
+[2025-08-07 11:17:22,757] WARNING django.server (212): "GET /api/reminder/ HTTP/1.1" 401 40
+[2025-08-07 11:17:22,764] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-07 11:17:22,765] INFO django.server (212): "POST /api/token/refresh/ HTTP/1.1" 200 241
+[2025-08-07 11:17:22,768] WARNING django.request (246): Not Found: /favicon.ico
+[2025-08-07 11:17:22,768] WARNING django.server (212): "GET /favicon.ico HTTP/1.1" 404 3645
+[2025-08-07 11:17:22,820] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-07 11:17:22,821] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-07 11:17:22,823] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-07 11:17:22,823] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-07 11:17:22,825] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1138
+[2025-08-07 11:17:22,827] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-07 11:17:24,594] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12327
+[2025-08-07 11:17:24,622] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-07 11:17:24,623] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-07 11:17:24,623] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-07 11:17:24,623] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-07 11:17:24,628] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1138
+[2025-08-07 11:17:24,628] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1012
+[2025-08-07 11:18:04,466] INFO jobtracker.applications.viewsets (47): User saxenatarun1811@gmail.com is creating a JobApplication
+[2025-08-07 11:18:13,758] DEBUG jobtracker.applications.viewsets (51): JobApplication created: {'id': 4, 'created_at': '2025-08-07T11:18:04.502051+05:30', 'modified_at': '2025-08-07T11:18:04.502076+05:30', 'company': 'QBC', 'role': 'QA', 'job_url': 'http://localhost:8004/home/', 'platform': 'LinkDin', 'status': 'offer', 'date_applied': '2025-08-07', 'notes': '', 'follow_up_date': '2025-08-07T11:18:00+05:30', 'user': 1}
+[2025-08-07 11:18:13,759] INFO django.server (212): "POST /api/job-application/ HTTP/1.1" 201 304
+[2025-08-07 11:18:13,766] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-08-07 11:18:13,767] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-07 11:18:13,767] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-08-07 11:18:13,767] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-08-07 11:18:13,770] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1317
+[2025-08-07 11:18:13,771] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1383
+[2025-08-07 11:20:32,988] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/serializers.py changed, reloading.
+[2025-08-07 11:20:33,630] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-09-24 11:07:00,012] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-09-24 11:07:02,183] WARNING django.request (246): Not Found: /
+[2025-09-24 11:07:02,183] WARNING django.server (212): "GET / HTTP/1.1" 404 3594
+[2025-09-24 11:07:02,221] WARNING django.request (246): Not Found: /favicon.ico
+[2025-09-24 11:07:02,221] WARNING django.server (212): "GET /favicon.ico HTTP/1.1" 404 3645
+[2025-09-24 11:07:09,058] INFO django.server (212): "GET /login/ HTTP/1.1" 200 1635
+[2025-09-24 11:07:36,057] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py changed, reloading.
+[2025-09-24 11:07:36,497] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-09-24 11:07:49,165] INFO django.server (212): "POST /login/ HTTP/1.1" 200 1700
+[2025-09-24 11:08:00,216] INFO django.server (212): "POST /login/ HTTP/1.1" 302 0
+[2025-09-24 11:08:01,819] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12327
+[2025-09-24 11:08:06,172] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-09-24 11:08:06,173] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-09-24 11:08:06,175] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1383
+[2025-09-24 11:08:12,150] INFO django.server (212): "POST /logout/ HTTP/1.1" 302 0
+[2025-09-24 11:08:12,792] INFO django.server (212): "GET /login/ HTTP/1.1" 200 1635
+[2025-09-24 11:08:20,575] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-24 11:08:20,575] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-09-24 11:08:30,461] INFO django.server (212): "POST /login/ HTTP/1.1" 302 0
+[2025-09-24 11:09:19,785] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12327
+[2025-09-24 11:09:19,870] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-24 11:09:19,870] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-09-24 11:09:22,564] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-09-24 11:09:22,565] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-09-24 11:09:22,571] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1317
+[2025-09-24 11:10:20,470] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-09-24 11:10:36,062] INFO jobtracker.applications.viewsets (67): JobApplication 1 updated
+[2025-09-24 11:10:36,063] INFO django.server (212): "PUT /api/job-application/1/ HTTP/1.1" 200 332
+[2025-09-24 11:10:37,136] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-09-24 11:10:37,136] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-09-24 11:10:37,142] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1317
+[2025-09-24 11:11:53,580] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py changed, reloading.
+[2025-09-24 11:14:05,564] ERROR django.request (246): Internal Server Error: /api/job-application/4/
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py", line 10, in authenticate
+    token = request.COOKIES.get('access_token')
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py", line 10, in authenticate
+    token = request.COOKIES.get('access_token')
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 181, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+[2025-09-24 11:14:05,565] ERROR django.server (212): "PUT /api/job-application/4/ HTTP/1.1" 500 156035
+[2025-09-24 11:14:11,699] WARNING django.request (246): Unauthorized: /api/reminder/
+[2025-09-24 11:14:11,700] WARNING django.server (212): "GET /api/reminder/ HTTP/1.1" 401 40
+[2025-09-24 11:14:11,792] ERROR django.request (246): Internal Server Error: /api/token/refresh/
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py", line 10, in authenticate
+    token = request.COOKIES.get('access_token')
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py", line 10, in authenticate
+    token = request.COOKIES.get('access_token')
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 181, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+[2025-09-24 11:14:11,793] ERROR django.server (212): "POST /api/token/refresh/ HTTP/1.1" 500 154757
+[2025-09-24 11:14:13,835] WARNING django.request (246): Unauthorized: /api/reminder/
+[2025-09-24 11:14:13,835] WARNING django.server (212): "GET /api/reminder/ HTTP/1.1" 401 40
+[2025-09-24 11:14:16,944] ERROR django.request (246): Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py", line 10, in authenticate
+    token = request.COOKIES.get('access_token')
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py", line 10, in authenticate
+    token = request.COOKIES.get('access_token')
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 181, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+[2025-09-24 11:14:16,951] ERROR django.server (212): "GET /login/ HTTP/1.1" 500 154405
+[2025-09-24 11:14:16,963] ERROR django.request (246): Internal Server Error: /api/token/refresh/
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py", line 10, in authenticate
+    token = request.COOKIES.get('access_token')
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py", line 10, in authenticate
+    token = request.COOKIES.get('access_token')
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 181, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+[2025-09-24 11:14:16,963] ERROR django.server (212): "POST /api/token/refresh/ HTTP/1.1" 500 154757
+[2025-09-24 11:14:16,984] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-24 11:14:16,984] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-09-24 11:14:21,471] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-09-24 11:14:28,568] INFO django.utils.autoreload (667): Watching for file changes with StatReloader
+[2025-09-24 11:14:32,681] INFO django.server (212): "GET /login/ HTTP/1.1" 200 1635
+[2025-09-24 11:14:32,719] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-24 11:14:32,719] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-09-24 11:14:46,764] INFO django.server (212): "POST /login/ HTTP/1.1" 302 0
+[2025-09-24 11:14:47,509] INFO django.server (212): "GET /home/ HTTP/1.1" 200 12327
+[2025-09-24 11:14:47,582] WARNING django.request (246): Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[2025-09-24 11:14:47,583] WARNING django.server (212): "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3756
+[2025-09-24 11:14:48,417] INFO jobtracker.applications.viewsets (29): User saxenatarun1811@gmail.com requested job applications list
+[2025-09-24 11:14:48,418] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-09-24 11:14:48,423] INFO django.server (212): "GET /api/job-application/ HTTP/1.1" 200 1317
+[2025-09-24 11:15:05,386] DEBUG jobtracker.applications.viewsets (20): Filtering JobApplications with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-09-24 11:15:05,456] INFO jobtracker.applications.viewsets (67): JobApplication 4 updated
+[2025-09-24 11:15:05,457] INFO django.server (212): "PUT /api/job-application/4/ HTTP/1.1" 200 304
+[2025-09-24 11:15:06,877] INFO jobtracker.applications.viewsets (105): User saxenatarun1811@gmail.com requested reminder list
+[2025-09-24 11:15:06,878] DEBUG jobtracker.applications.viewsets (100): Filtering Reminders with {'user': <User: saxenatarun1811@gmail.com>}
+[2025-09-24 11:15:06,882] INFO django.server (212): "GET /api/reminder/ HTTP/1.1" 200 1417
+[2025-09-24 11:16:00,001] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 6
+[2025-09-24 11:20:00,004] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 1
+[2025-09-24 11:20:00,004] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 1
+[2025-09-24 11:20:00,004] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 1
+[2025-09-24 11:20:00,004] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 1
+[2025-09-24 11:20:00,004] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 1
+[2025-09-24 11:20:00,004] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 1
+[2025-09-24 11:20:00,008] INFO jobtracker.applications.tasks (12): Executing task: Sending reminder for ID: 1
+[2025-09-24 11:20:03,865] ERROR jobtracker.applications.tasks (31): Error while sending reminder for ID 1: I/O operation on closed file
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py", line 31, in send_reminder_mail
+    reminder_obj.save()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 444, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/shortcuts/prompt.py", line 1035, in prompt
+    return self.app.run(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 1002, in run
+    return asyncio.run(coro)
+  File "/usr/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 886, in run_async
+    return await _run_async(f)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 734, in _run_async
+    with self.input.raw_mode(), self.input.attach(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/input/vt100.py", line 123, in raw_mode
+    return raw_mode(self.stdin.fileno())
+ValueError: I/O operation on closed file
+[2025-09-24 11:20:04,180] ERROR jobtracker.applications.tasks (31): Error while sending reminder for ID 1: I/O operation on closed file
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py", line 31, in send_reminder_mail
+    reminder_obj.save()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 444, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/shortcuts/prompt.py", line 1035, in prompt
+    return self.app.run(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 1002, in run
+    return asyncio.run(coro)
+  File "/usr/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 886, in run_async
+    return await _run_async(f)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 734, in _run_async
+    with self.input.raw_mode(), self.input.attach(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/input/vt100.py", line 123, in raw_mode
+    return raw_mode(self.stdin.fileno())
+ValueError: I/O operation on closed file
+[2025-09-24 11:20:05,014] ERROR jobtracker.applications.tasks (31): Error while sending reminder for ID 1: I/O operation on closed file
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py", line 31, in send_reminder_mail
+    reminder_obj.save()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 444, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/shortcuts/prompt.py", line 1035, in prompt
+    return self.app.run(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 1002, in run
+    return asyncio.run(coro)
+  File "/usr/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 886, in run_async
+    return await _run_async(f)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 734, in _run_async
+    with self.input.raw_mode(), self.input.attach(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/input/vt100.py", line 123, in raw_mode
+    return raw_mode(self.stdin.fileno())
+ValueError: I/O operation on closed file
+[2025-09-24 11:20:05,024] ERROR jobtracker.applications.tasks (31): Error while sending reminder for ID 1: I/O operation on closed file
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py", line 31, in send_reminder_mail
+    reminder_obj.save()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 444, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/shortcuts/prompt.py", line 1035, in prompt
+    return self.app.run(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 1002, in run
+    return asyncio.run(coro)
+  File "/usr/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 886, in run_async
+    return await _run_async(f)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 734, in _run_async
+    with self.input.raw_mode(), self.input.attach(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/input/vt100.py", line 123, in raw_mode
+    return raw_mode(self.stdin.fileno())
+ValueError: I/O operation on closed file
+[2025-09-24 11:20:05,142] ERROR jobtracker.applications.tasks (31): Error while sending reminder for ID 1: I/O operation on closed file
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py", line 31, in send_reminder_mail
+    reminder_obj.save()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 444, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/shortcuts/prompt.py", line 1035, in prompt
+    return self.app.run(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 1002, in run
+    return asyncio.run(coro)
+  File "/usr/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 886, in run_async
+    return await _run_async(f)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 734, in _run_async
+    with self.input.raw_mode(), self.input.attach(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/input/vt100.py", line 123, in raw_mode
+    return raw_mode(self.stdin.fileno())
+ValueError: I/O operation on closed file
+[2025-09-24 11:20:05,307] ERROR jobtracker.applications.tasks (31): Error while sending reminder for ID 1: I/O operation on closed file
+Traceback (most recent call last):
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/tasks.py", line 31, in send_reminder_mail
+    reminder_obj.save()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/home/tarunsaxena/personal_proj/jobtracker/jobtracker/applications/models.py", line 75, in _post_save_receiver
+    result = send_reminder_mail.apply_async(
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 112, in dispatch_line
+    self.user_line(frame)
+  File "/usr/lib/python3.8/pdb.py", line 262, in user_line
+    self.interaction(frame, None)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/core/debugger.py", line 335, in interaction
+    OldPdb.interaction(self, frame, traceback)
+  File "/usr/lib/python3.8/pdb.py", line 357, in interaction
+    self._cmdloop()
+  File "/usr/lib/python3.8/pdb.py", line 322, in _cmdloop
+    self.cmdloop()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 131, in cmdloop
+    line = self.thread_executor.submit(
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 444, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/shortcuts/prompt.py", line 1035, in prompt
+    return self.app.run(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 1002, in run
+    return asyncio.run(coro)
+  File "/usr/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 886, in run_async
+    return await _run_async(f)
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/application/application.py", line 734, in _run_async
+    with self.input.raw_mode(), self.input.attach(
+  File "/home/tarunsaxena/personal_proj/jobtracker_env/lib/python3.8/site-packages/prompt_toolkit/input/vt100.py", line 123, in raw_mode
+    return raw_mode(self.stdin.fileno())
+ValueError: I/O operation on closed file
+[2025-09-24 11:20:59,106] INFO django.utils.autoreload (265): /home/tarunsaxena/personal_proj/jobtracker/jobtracker/authentication.py changed, reloading.
+[2025-09-24 11:21:20,135] INFO django.utils.autoreload (667): Watching for file changes with StatReloader

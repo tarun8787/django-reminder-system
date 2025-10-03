@@ -1,0 +1,368 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+  <h2 class="mb-4">Dashboard</h2>
+
+  <!-- Job Applications Section -->
+  <div class="card mb-4">
+    <div class="card-header d-flex justify-content-between">
+      <h4 class="mb-0">Job Applications</h4>
+      <button class="btn btn-primary btn-sm" onclick="openJobModal()">Add</button>
+    </div>
+    <div class="card-body">
+      <table class="table" id="job-app-table">
+        <thead>
+          <tr>
+            <th>ID</th><th>Title</th><th>Company</th><th>Status</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Reminders Section -->
+  <div class="card">
+    <div class="card-header d-flex justify-content-between">
+      <h4 class="mb-0">Reminders</h4>
+      <button class="btn btn-primary btn-sm" onclick="openReminderModal()">Add</button>
+    </div>
+    <div class="card-body">
+      <table class="table" id="reminder-table">
+        <thead>
+          <tr>
+            <th>ID</th><th>Message</th><th>Time</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Modals -->
+<div class="modal fade" id="jobModal" tabindex="-1" aria-labelledby="jobModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form id="job-form">
+        <div class="modal-header">
+          <h5 class="modal-title" id="jobModalLabel">Job Application</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <input type="hidden" id="job-id" name="id">
+          <div class="mb-3">
+            <label for="job-title" class="form-label">Role</label>
+            <input type="text" class="form-control" id="job-title" name="role" required>
+          </div>
+          <div class="mb-3">
+            <label for="job-company" class="form-label">Company</label>
+            <input type="text" class="form-control" id="job-company" name="company" required>
+          </div>
+          <div class="mb-3">
+            <label for="job-url" class="form-label">Job URL</label>
+            <input type="url" class="form-control" id="job-url" name="job_url" required>
+          </div>
+          <div class="mb-3">
+            <label for="job-platform" class="form-label">Platform</label>
+            <input type="text" class="form-control" id="job-platform" name="platform" required>
+          </div>
+          <div class="mb-3">
+            <label for="job-status" class="form-label">Status</label>
+            <select class="form-select" id="job-status" name="status" required>
+              <option value="applied">Applied</option>
+              <option value="interview">Interview</option>
+              <option value="offer">Offer</option>
+              <option value="rejected">Rejected</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="job-date" class="form-label">Date Applied</label>
+            <input type="date" class="form-control" id="job-date" name="date_applied" required>
+          </div>
+          <div class="mb-3">
+            <label for="job-notes" class="form-label">Notes</label>
+            <textarea class="form-control" id="job-notes" name="notes"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="job-follow-up" class="form-label">Follow Up Date</label>
+            <input type="datetime-local" class="form-control" id="job-follow-up" name="follow_up_date" required>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success">Save</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="reminderModal" tabindex="-1">
+  <div class="modal-dialog"><div class="modal-content">
+    <div class="modal-header"><h5 class="modal-title">Reminder</h5></div>
+    <div class="modal-body">
+      <input type="hidden" id="reminder-id">
+      <input type="text" class="form-control mb-2" id="reminder-msg" placeholder="Message">
+      <input type="datetime-local" class="form-control" id="reminder-time">
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-primary" onclick="saveReminder()">Save</button>
+    </div>
+  </div></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+$(document).ready(function () {
+  loadJobs();
+  $('#job-form').on('submit', function (e) {
+    e.preventDefault();
+    saveJob();
+  });
+
+});
+
+// Token handling
+function callApi(method, url, data, onSuccess) {
+  $.ajax({
+    method,
+    url,
+    contentType: 'application/json',
+    data: data ? JSON.stringify(data) : undefined,
+    success: onSuccess,
+    error: function (xhr) {
+      if (xhr.status === 401) {
+        refreshToken().then((res) => {
+          callApi(method, url, data, onSuccess);
+        }).catch(() => {
+          alert("Session expired. Redirecting to login.");
+          window.location.href = '/login/';
+        });
+      } else {
+        alert("Error: " + xhr.statusText);
+      }
+    }
+  });
+}
+
+{% comment %} function refreshToken() {
+  return new Promise(function (resolve, reject) {
+    $.post('/api/token/refresh/', {}, function (data) {
+      resolve();
+    }).fail(function () {
+      reject();
+    });
+  });
+} {% endcomment %}
+
+function refreshToken() {
+  return new Promise((resolve, reject) => {
+    $.ajax({
+      method: 'POST',
+      url: '/api/token/refresh/',
+      contentType: 'application/json',
+      success: function (data) {
+        resolve(data);
+      },
+      error: function () {
+        reject();
+      }
+    });
+  });
+}
+
+
+// CRUD: Job Applications
+function loadJobs() {
+  callApi('GET', '/api/job-application/', null, function (data) {
+    const tbody = $('#job-app-table tbody').empty();
+    data.forEach(job => {
+      tbody.append(`
+        <tr>
+          <td>${job.id}</td>
+          <td>${job.role}</td>
+          <td>${job.company}</td>
+          <td>${job.status}</td>
+          <td>
+            <button class="btn btn-sm btn-info" 
+              onclick="editJob(
+                ${job.id},
+                '${job.role.replace(/'/g, "\\'")}',
+                '${job.company.replace(/'/g, "\\'")}',
+                '${job.status}',
+                '${job.job_url}',
+                '${job.platform.replace(/'/g, "\\'")}',
+                '${job.notes.replace(/'/g, "\\'")}',
+                '${job.date_applied}',
+                '${job.follow_up_date}'
+              )">
+              Edit
+            </button>
+            <button class="btn btn-sm btn-danger" onclick="deleteJob(${job.id})">Delete</button>
+          </td>
+        </tr>
+      `);
+    });
+  });
+  loadReminders();
+}
+
+function openJobModal() {
+  $('#job-id').val('');
+  $('#job-title, #job-company, #job-url, #job-platform, #job-status, #job-date, #job-notes, #job-follow-up').val('');
+  const modal = new bootstrap.Modal(document.getElementById('jobModal'));
+  modal.show();
+}
+
+function editJob(id, title, company, status, jobUrl, platform, notes, dateApplied, followUpDate) {
+  $('#job-id').val(id);
+  $('#job-title').val(title);
+  $('#job-company').val(company);
+  $('#job-status').val(status);
+  $('#job-url').val(jobUrl);
+  $('#job-platform').val(platform);
+  $('#job-notes').val(notes);
+  //$('#job-date').val(dateApplied);
+  //$('#job-follow-up').val(followUpDate);
+  if (dateApplied) {
+    const date = new Date(dateApplied);
+    const formattedDate = date.toISOString().split('T')[0];
+    $('#job-date').val(formattedDate);
+  } else {
+    $('#job-date').val('');
+  }
+
+  if (followUpDate) {
+    const dateTime = new Date(followUpDate);
+    //dateTime.setMinutes(dateTime.getMinutes() - (5 * 60 + 30));
+    const iso = dateTime.toISOString();
+    const formattedDateTime = iso.substring(0, 16);
+    $('#job-follow-up').val(formattedDateTime);
+  } else {
+    $('#job-follow-up').val('');
+  }
+  const modal = new bootstrap.Modal(document.getElementById('jobModal'));
+  modal.show();
+}
+
+
+
+function saveJob() {
+  const id = $('#job-id').val();
+  const payload = {
+    role: $('#job-title').val(),
+    company: $('#job-company').val(),
+    job_url: $('#job-url').val(),
+    platform: $('#job-platform').val(),
+    status: $('#job-status').val(),
+    date_applied: $('#job-date').val(),
+    notes: $('#job-notes').val(),
+    follow_up_date: $('#job-follow-up').val(),
+  };
+
+  if (id) {
+    callApi('PUT', `/api/job-application/${id}/`, payload, loadJobs);
+  } else {
+    callApi('POST', '/api/job-application/', payload, loadJobs);
+  }
+  $('#jobModal').modal('hide');
+}
+
+function deleteJob(id) {
+  if (confirm("Delete this job application?")) {
+    callApi('DELETE', `/api/job-application/${id}/`, null, loadJobs);
+  }
+}
+
+// CRUD: Reminders
+function loadReminders() {
+  callApi('GET', '/api/reminder/', null, function (data) {
+    const tbody = $('#reminder-table tbody').empty();
+    data.forEach(rem => {
+      tbody.append(`
+        <tr>
+          <td>${rem.id}</td>
+          <td>${rem.message}</td>
+          <td>${rem.remind_at}</td>
+          <td>
+            <button class="btn btn-sm btn-info" onclick="editReminder(${rem.id}, '${rem.message}', '${rem.remind_at}')">Edit</button>
+            <button class="btn btn-sm btn-danger" onclick="deleteReminder(${rem.id})">Delete</button>
+          </td>
+        </tr>
+      `);
+    });
+  });
+}
+
+function openReminderModal() {
+  $('#reminder-id').val('');
+  $('#reminder-msg, #reminder-time').val('');
+  $('#reminderModal').modal('show');
+}
+
+{% comment %} function editReminder(id, msg, time) {
+  $('#reminder-id').val(id);
+  $('#reminder-msg').val(msg);
+  //$('#reminder-time').val(time);
+  if (time) {
+    const dateTime = new Date(time);
+    const iso = dateTime.toISOString();
+    const formattedDateTime = iso.substring(0, 16);
+    $('#reminder-time').val(formattedDateTime);
+  } else {
+    $('#reminder-time').val('');
+  }
+  $('#reminderModal').modal('show');
+} {% endcomment %}
+
+function editReminder(id, msg, time) {
+  $('#reminder-id').val(id);
+  $('#reminder-msg').val(msg);
+  if (time) {
+    const dateTime = new Date(time);
+    const pad = (n) => n.toString().padStart(2, '0');
+    const localISO = (dt) => {
+      const year = dt.getFullYear();
+      const month = pad(dt.getMonth() + 1);
+      const day = pad(dt.getDate());
+      const hours = pad(dt.getHours());
+      const minutes = pad(dt.getMinutes());
+      return `${year}-${month}-${day}T${hours}:${minutes}`;
+    };
+    const formattedDateTime = localISO(dateTime);
+    $('#reminder-time').val(formattedDateTime);
+  } else {
+    $('#reminder-time').val('');
+  }
+  $('#reminderModal').modal('show');
+}
+
+
+function saveReminder() {
+  const id = $('#reminder-id').val();
+  const payload = {
+    message: $('#reminder-msg').val(),
+    remind_at: $('#reminder-time').val(),
+  };
+  if (id) {
+    callApi('PUT', `/api/reminder/${id}/`, payload, loadReminders);
+  } else {
+    callApi('POST', '/api/reminder/', payload, loadReminders);
+  }
+  $('#reminderModal').modal('hide');
+}
+function deleteReminder(id) {
+  if (confirm("Delete this reminder?")) {
+    callApi('DELETE', `/api/reminder/${id}/`, null, loadReminders);
+  }
+}
+
+</script>
+{% endblock %}
