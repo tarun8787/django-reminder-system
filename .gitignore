@@ -20,3 +20,7 @@ db.sqlite3
 Thumbs.db
 
 logs/
+
+# Secrets
+.env
+*.env
